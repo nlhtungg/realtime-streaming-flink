@@ -6,9 +6,7 @@ A comprehensive real-time data streaming and analytics system that processes e-c
 
 This system implements a Lambda architecture pattern for real-time analytics on e-commerce transaction data:
 
-```
-Data Generator → Kafka → Apache Flink → PostgreSQL & Elasticsearch → Kibana
-```
+![Architecture Overview](architecture.png)
 
 ## 📊 Data Source
 
